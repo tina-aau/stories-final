@@ -1,6 +1,9 @@
-/* styles.css */
-  <style>
-      body{
-        background-color: cddbc8;
-        padding: 50px;
-      }
+body {
+  background: #ffcca3
+}
+
+title {
+  font-size: 40px;
+  color: red;
+  text-align: center;
+}

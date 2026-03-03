@@ -1,5 +1,21 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
-}
+<style>
+    :root {
+      --ink: #1a0f0a;
+      --paper: #f5ede0;
+      --amber: #c8843a;
+      --rust: #8b3a2a;
+      --fog: #d4c9b8;
+      --shadow: rgba(26,15,10,0.15);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'Crimson Pro', Georgia, serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
